@@ -1,0 +1,28 @@
+.titulo{
+    width: calc(100vw - 32px);
+    height: 100px;
+    padding-inline: 16px ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 1px 2px 2px 2px rgb(0, 0, 0, 0.5);
+}
+
+*{
+    margin: 0px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0);
+    font-weight: normal;
+    overflow: auto;
+    overflow-x: hidden;
+}
+#tituloh1{
+    display: grid;
+    align-items: center;
+}
+
+.btnver{
+    width: 150px;
+    
+}
