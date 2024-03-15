@@ -33,10 +33,12 @@ const transImpares = numerosImpares.map((value, index)=>{
 console.log(transImpares);
 
 function mostrarp(){
-    document.getElementById("resultadosver").innerHTML = transPares;
+    const resultadoHTML = transPares.map((value)=> '<li>' +  value + '</i>')
+    document.getElementById("resultadosver").innerHTML = resultadoHTML;
 }
 function mostrapr(){
-    document.getElementById("resultadosver").innerHTML = transImpares;
+    const resultadoHTML = transImpares.map((value)=> '<li>' +  value + '</i>')
+    document.getElementById("resultadosver").innerHTML = resultadoHTML;
 }
 
 
