@@ -41,4 +41,17 @@ function mostrapr(){
     document.getElementById("resultadosver").innerHTML = resultadoHTML;
 }
 
+function mostrarpm(){
+    const numeroIngresado = parseInt(document.getElementById('inputpar').value);
+    const numerosParesMayores = numeros.filter((value)=>value % 2 ===0 && value > numeroIngresado);
+    const resultadoHTML = numerosParesMayores.map((value)=> '<li>' +  value + '</i>');
+    document.getElementById("resultadosver").innerHTML = resultadoHTML;
+}
+function mostrarim(){
+    const numeroIngresado = parseInt(document.getElementById('inputpar').value);
+    const numerosImparesMayores = numeros.filter((value)=>value % 2 !=0 && value > numeroIngresado);
+    const resultadoHTML = numerosImparesMayores.map((value)=> '<li>' +  value + '</i>');
+    document.getElementById("resultadosver").innerHTML = resultadoHTML;
+}
+
 
