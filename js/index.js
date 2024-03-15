@@ -3,11 +3,6 @@ for (let i=1;i<=200;i++){
     numeros.push(i);
 }
 console.log(numeros);
-function mostrarPares() {
-    var numero = document.getElementById('pares').innerHTML="";
-    document.getElementById("opciones");
-    let resultados = [];
-}
 
 const lista = numeros;
 //PARES
@@ -27,13 +22,21 @@ console.log(numerosImpares);
 //IMPARES
 
 const transPares = numerosPares.map((value, index)=>{
-    return 'El numero par ' + index+ ' es: '+ value;
+    return 'En la Posicion ' + index+ ' el numero es:  '+ value + "\n";
 });
 console.log(transPares);
 
 
 const transImpares = numerosImpares.map((value, index)=>{
-    return 'El numero impar ' + index+ ' es: '+ value;
+    return 'La posicion ' + index+ ' es: '+ value;
 });
 console.log(transImpares);
+
+function mostrarp(){
+    document.getElementById("resultadosver").innerHTML = transPares;
+}
+function mostrapr(){
+    document.getElementById("resultadosver").innerHTML = transImpares;
+}
+
 

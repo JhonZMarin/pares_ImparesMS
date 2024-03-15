@@ -14,14 +14,14 @@
     </header>
 
     <form class="formopciones">
-        <select title="opciones">
-            <option id="pares">VER PARES</option>
+        <select title="opciones" >
+            <option value="pares" onclick="mostrarp()">VER PARES</option>
             <option value="impares">VER IMPARES</option>
             <option value="parmayor">VER PARES MAYORES A</option>
             <option value="imparmayor">VER IMPARES MAYORES A</option>
         </select>
-        <button type="button" class="btnver" onclick="mostrarPares()">VER</button>
-        <ul id="resultadosver"></ul>
+        <button type="button" class="btnver" onclick="mostrarp()">VER</button>
+        <button type="button" class="btnver" onclick="mostrapr()">VER</button>
         
     </form>
     <section class="resultados" id="resultadosver">
