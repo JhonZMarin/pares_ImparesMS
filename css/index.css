@@ -1,3 +1,11 @@
+*{
+    margin: 0px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0);
+    font-weight: normal;
+    overflow: auto;
+    overflow-x: hidden;
+}
 .titulo{
     width: calc(100vw - 32px);
     height: 100px;
@@ -8,15 +16,10 @@
     justify-content: space-around;
     box-shadow: 1px 2px 2px 2px rgb(0, 0, 0, 0.5);
 }
+ .formopciones{
+    
+ }
 
-*{
-    margin: 0px;
-    padding: 20px;
-    background: rgba(255, 255, 255, 0);
-    font-weight: normal;
-    overflow: auto;
-    overflow-x: hidden;
-}
 #tituloh1{
     display: grid;
     align-items: center;

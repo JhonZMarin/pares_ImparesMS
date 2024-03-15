@@ -3,6 +3,11 @@ for (let i=1;i<=200;i++){
     numeros.push(i);
 }
 console.log(numeros);
+function mostrarPares() {
+    var numero = document.getElementById('pares').innerHTML="";
+    document.getElementById("opciones");
+    let resultados = [];
+}
 
 const lista = numeros;
 //PARES
@@ -32,4 +37,3 @@ const transImpares = numerosImpares.map((value, index)=>{
 });
 console.log(transImpares);
 
-document.getElementById('tituloh1').innerHTML = numerosPares;

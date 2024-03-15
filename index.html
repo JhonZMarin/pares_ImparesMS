@@ -13,15 +13,24 @@
         CODIGO PARES IMPARES
     </header>
 
-    <form>
-        <select>
-            <option>VER PARES</option>
-            <option>VER IMPARES</option>
-            <option>VER PARES MAYORES A</option>
-            <option>VER IMPARES MAYORES A</option>
+    <form class="formopciones">
+        <select title="opciones">
+            <option id="pares">VER PARES</option>
+            <option value="impares">VER IMPARES</option>
+            <option value="parmayor">VER PARES MAYORES A</option>
+            <option value="imparmayor">VER IMPARES MAYORES A</option>
         </select>
-        <button type="button" class="btnver">VER</button>
+        <button type="button" class="btnver" onclick="mostrarPares()">VER</button>
+        <ul id="resultadosver"></ul>
+        
     </form>
+    <section class="resultados" id="resultadosver">
+        
+    </section>
+
+    <footer class="footer">
+        <p>FIN</p>
+    </footer>
 
     <script src="js/index.js"></script>
 
